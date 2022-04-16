@@ -1,19 +1,22 @@
 import React, { useState } from 'react'
 import Select from 'react-select'
 import { options } from './constants';
-import { FilterValue, IOption } from '../types';
+import { IOption } from '../types';
+import { useTypedDispatch } from '../store/hooks';
+import { setFilter } from '../store/filterSlice';
 
 interface IProps {
-  onSetFilter: (value: FilterValue) => void,
 }
 
 const Filter: React.FC<IProps> = (props) => {
   const [selectedFilter, setSelectedFilter] = useState<IOption | null>(options[0]);
 
+  const dispatch = useTypedDispatch()
+
   const handleChange = (option: IOption | null) => {
     setSelectedFilter(option)
     if (option) {
-      props.onSetFilter(option?.value)
+      dispatch(setFilter(option.value))
     }
   }
   return (

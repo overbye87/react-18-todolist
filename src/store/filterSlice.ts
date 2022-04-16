@@ -1,16 +1,22 @@
-import { FilterValue, IFilter } from './../types';
+import { FilterValue } from './../types';
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
 import type { RootState } from "./store"
 
-const initialState: IFilter = FilterValue.ALL
+interface IInitial {
+  value: FilterValue
+}
+
+const initialState: IInitial = {
+  value: FilterValue.ALL,
+}
 
 export const filterSlice = createSlice({
   name: 'filter',
   initialState,
   reducers: {
     setFilter: (store, action: PayloadAction<FilterValue>) => {
-      // return action.payload
-      return FilterValue.ALL
+      store.value = action.payload
+      return store
     },
   }
 })

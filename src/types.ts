@@ -6,11 +6,6 @@ export interface ITodo {
 
 export type ITodos = ITodo[]
 
-export type IFilter =
-  FilterValue.ALL
-  |  FilterValue.CHECKED
-  |  FilterValue.UNCHECKED
-
 export enum FilterValue {
   ALL = 'all',
   CHECKED = 'checked',
@@ -23,5 +18,3 @@ export interface IOption {
 }
 
 export type IOptions = IOption[]
-
-

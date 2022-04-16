@@ -1,21 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import AddForm from './AddForm'
 import { options } from './constants';
 import Filter from './Filter';
 import ToDoList from './ToDoList';
-import { FilterValue, ITodos } from '../types';
+import { ITodos } from '../types';
 import { useTypedSelector } from '../store/hooks';
 
-
-
 const ToDo = () => {
-  const [filter, setFilter] = useState(options[0].value);
 
   const todos = useTypedSelector((store) => store.todos)
-  
-  const handleSetFilter = (value: FilterValue) => {
-    setFilter(value);
-  }
+  const filter = useTypedSelector((store) => store.filter.value)
 
   const filterTodos = (todos: ITodos, filter: string) => {
     switch (filter) {
@@ -31,9 +25,7 @@ const ToDo = () => {
   return (
     <div className="container">
       <AddForm />
-      <Filter
-        onSetFilter={handleSetFilter}
-      />
+      <Filter />
       <ToDoList
         todos={filterTodos(todos, filter)}
       />
