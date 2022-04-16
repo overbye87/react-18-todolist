@@ -32,6 +32,25 @@ const GlobalStyle = createGlobalStyle`
       color: #282c34;
       width: 10em;
     }
+    .nav{
+      margin-bottom: 1em;
+      .link {
+        border: 1px solid gray;
+        border-radius: 4px;
+        padding: 0.2em 1em;
+        text-decoration: none;
+        &:visited {
+          color: inherit;
+        }
+        &:hover {
+          background-color: antiquewhite;
+          color: #282c34;
+        }
+        &--active {
+          background-color: gray;
+        }
+      }
+    }
   }
 `;
  

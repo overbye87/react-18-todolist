@@ -1,8 +1,8 @@
 import React from 'react'
-import AddForm from './AddForm'
-import { options } from './constants';
-import Filter from './Filter';
-import ToDoList from './ToDoList';
+import AddForm from '../components/AddForm'
+import { options } from '../components/constants';
+import Filter from '../components/Filter';
+import ToDoList from '../components/ToDoList';
 import { ITodos } from '../types';
 import { useTypedSelector } from '../store/hooks';
 
