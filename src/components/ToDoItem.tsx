@@ -1,19 +1,21 @@
 import React from 'react'
-import { ITodo } from './types'
+import { useTypedDispatch } from '../store/hooks'
+import { removeTodo, toggleTodo } from '../store/todosSlice'
+import { ITodo } from '../types'
 
 interface IProps {
   todo: ITodo,
-  onDeleteItem: (id: number) => void,
-  onSetChecked: (id: number) => void,
 }
 
 const ToDoItem: React.FC<IProps> = (props) => {
+  const dispatch = useTypedDispatch()
+
   const handleSetChecked = (e: React.FormEvent<HTMLInputElement>) => {
-    props.onSetChecked(props.todo.id)
+    dispatch(toggleTodo(props.todo.id))
   }
 
   const handleDeleteItem = (e: React.MouseEvent<HTMLElement>) => {
-    props.onDeleteItem(props.todo.id)
+    dispatch(removeTodo(props.todo.id))
   }
 
   return (

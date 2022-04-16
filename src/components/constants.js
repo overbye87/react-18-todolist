@@ -1,5 +1,6 @@
+import { FilterValue } from '../types'
 export const options = [
-  { value: 'all', label: 'all' },
-  { value: 'checked', label: 'checked' },
-  { value: 'unchecked', label: 'unchecked' },
+  { value: FilterValue.ALL, label: 'all' },
+  { value: FilterValue.CHECKED, label: 'checked' },
+  { value: FilterValue.UNCHECKED, label: 'unchecked' },
 ]

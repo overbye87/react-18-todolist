@@ -1,11 +1,9 @@
 import React from 'react'
 import ToDoItem from './ToDoItem'
-import { ITodo } from './types'
+import { ITodo } from '../types'
 
 interface IProps {
   todos: ITodo[],
-  onDeleteItem: (id: number) => void,
-  onSetChecked: (id: number) => void,
 }
 
 const ToDoList: React.FC<IProps> = (props) => {
@@ -16,8 +14,6 @@ const ToDoList: React.FC<IProps> = (props) => {
         <ToDoItem 
           key={todo.id}
           todo={todo}
-          onDeleteItem={props.onDeleteItem}
-          onSetChecked={props.onSetChecked}
         />)}
     </ul>
   )

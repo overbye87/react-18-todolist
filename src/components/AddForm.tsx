@@ -1,21 +1,25 @@
 import React, { useState } from 'react'
-import { ITodo } from './types'
-interface IProps {
-  onAddTodo: (todo: ITodo) => void
-}
+import { useTypedDispatch } from '../store/hooks'
+import { addTodo } from '../store/todosSlice'
+
+interface IProps { }
 const AddForm: React.FC<IProps> = (props) => {
   const [inputValue, setInputValue] = useState('')
+  const dispatch = useTypedDispatch()
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (inputValue) {
       setInputValue('')
-      props.onAddTodo({
+      const todo = {
         id: Date.now(),
         title: inputValue,
         isDone: false
-      })
+      }
+      dispatch(addTodo(todo))
     }
   }
+
   return (
     <form onSubmit={handleSubmit}>
       <label>

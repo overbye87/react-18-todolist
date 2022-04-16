@@ -3,15 +3,17 @@ import AddForm from './AddForm'
 import { options } from './constants';
 import Filter from './Filter';
 import ToDoList from './ToDoList';
-import { ITodo, ITodos } from './types';
+import { FilterValue, ITodos } from '../types';
+import { useTypedSelector } from '../store/hooks';
 
 
 
 const ToDo = () => {
-  const [todos, setTodos] = useState<ITodos>([]);
   const [filter, setFilter] = useState(options[0].value);
+
+  const todos = useTypedSelector((store) => store.todos)
   
-  const handleSetFilter = (value: string) => {
+  const handleSetFilter = (value: FilterValue) => {
     setFilter(value);
   }
 
@@ -26,31 +28,14 @@ const ToDo = () => {
     } 
   }
 
-  const handlAddTodo = (todo: ITodo) => {
-    console.log(todo);
-    setTodos((prev) => [...prev, todo])
-  }
-
-  const handlDeleteItem = (id: number) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
-  }
-
-  const handleSetChecked = (id: number) => {
-    setTodos(todos.map((todo) => todo.id === id ? {...todo, isDone: !todo.isDone } : todo))
-  }
-
   return (
     <div className="container">
-      <AddForm
-        onAddTodo={handlAddTodo}
-       />
+      <AddForm />
       <Filter
         onSetFilter={handleSetFilter}
       />
       <ToDoList
         todos={filterTodos(todos, filter)}
-        onDeleteItem={handlDeleteItem}
-        onSetChecked={handleSetChecked}
       />
     </div>
   )

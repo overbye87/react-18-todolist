@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import Select from 'react-select'
 import { options } from './constants';
-import { IOption } from './types';
+import { FilterValue, IOption } from '../types';
 
 interface IProps {
-  onSetFilter: (value: string) => void,
+  onSetFilter: (value: FilterValue) => void,
 }
 
 const Filter: React.FC<IProps> = (props) => {
@@ -22,7 +22,7 @@ const Filter: React.FC<IProps> = (props) => {
       <Select
         className="select"
         options={options}
-        value={selectedFilter}        
+        value={selectedFilter}
         onChange={handleChange}
       />
     </div>
