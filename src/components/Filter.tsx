@@ -18,7 +18,9 @@ const Filter: React.FC<IProps> = (props) => {
   }
   return (
     <div>
+      {'Filter'}
       <Select
+        className="select"
         options={options}
         value={selectedFilter}        
         onChange={handleChange}

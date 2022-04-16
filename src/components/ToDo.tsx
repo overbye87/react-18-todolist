@@ -40,7 +40,7 @@ const ToDo = () => {
   }
 
   return (
-    <div>
+    <div className="container">
       <AddForm
         onAddTodo={handlAddTodo}
        />
