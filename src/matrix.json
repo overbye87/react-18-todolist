@@ -1,0 +1,1945 @@
+{
+  "data": [
+      {
+          "id": 1,
+          "title": "Основы WEB Разработки",
+          "matrix_sections": [
+              {
+                  "id": 1,
+                  "title": "HTML",
+                  "matrix_skills": [
+                      {
+                          "id": 1,
+                          "title": "HTML теги",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 2,
+                          "title": "Семантически корректная верстка",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 3,
+                          "title": "Базовая работа с формами",
+                          "description": "<p>- отправка форм классическим способом (через method)</p><p>- отправка форм через ajax</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 4,
+                          "title": "Подключение css и js на страницу",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 5,
+                          "title": "Знание шаблонизаторов на минимальном уровне",
+                          "description": "<p>- вывод контекстных данных в темплейт (через {{}} и подобия)</p><p>- использование if</p><p>- использование for</p><p><br></p><p>Рекомендуемые шаблонизаторы: pug, handlebars, nunjucks</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 7,
+                          "title": "Есть опыт разработки с шаблонизаторами",
+                          "description": "<p>- использование глобальных шаблонов</p><p>- использование partials</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 8,
+                          "title": "Базовое знание SEO",
+                          "description": "<p>использование корректных тегов (h1 для заголовков, p для текста и т.д)</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 9,
+                          "title": "Знание meta тегов",
+                          "description": "",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 2,
+                  "title": "SEO",
+                  "matrix_skills": [
+                      {
+                          "id": 10,
+                          "title": "Знает основные мета теги и для чего они нужны",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 11,
+                          "title": "Знает основные принципы SEO оптимизации и подводные камни",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 12,
+                          "title": "Знание SEO на высоком уровне",
+                          "description": "<p>использование https://schema.org/</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 3,
+                  "title": "CSS",
+                  "matrix_skills": [
+                      {
+                          "id": 13,
+                          "title": "Box model",
+                          "description": "<p>&nbsp;(content - padding - border - margin)</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 14,
+                          "title": "Написание селекторов. Их специфичность.",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 15,
+                          "title": "Базовые значения display",
+                          "description": "<p>Разница между ними, умение применять.</p><p>- inline</p><p>- block</p><p>- inline-block</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 16,
+                          "title": "Базовые знания о позиционировании элементов",
+                          "description": "<p>Знание и использование следующих значений:</p><p>- position (static / relative / absolute / fixed)</p><p>- float (left / right) (используется мало, поэтому достаточно базовых знаний)</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 17,
+                          "title": "Flexbox",
+                          "description": "<p><br></p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 18,
+                          "title": "Верстка по сетке",
+                          "description": "<p>Понимание как работает сетка bootstrap</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 19,
+                          "title": "Использование media-query",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 20,
+                          "title": "Базовые знания о БЭМ и именовании классов",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 21,
+                          "title": "Знание препроцессоров на базовом уровне",
+                          "description": "<p>- SASS / SCSS (рекомендуемый, вариант SCSS)</p><p>- Less</p><p>- Stylus</p><p><br></p><p>Базовый уровень включает в себя:</p><p>- понимание вложенности</p><p>- использование переменных</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 77,
+                          "title": "Кроссбраузерная верстка",
+                          "description": "<p>- понимание сути префиксов</p><p>- опыт верстки для различных браузеров</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 83,
+                          "title": "CSS фреймоврки",
+                          "description": "<p>Понимание как устроены css фреймворки вроде bootstrap.</p><p>В наличии опыт работы с одним из них:</p><p>- bootstrap</p><p>- material</p><p>- Semantic UI</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 84,
+                          "title": "Продвинутые препроцессоры",
+                          "description": "<p>Знание и использование дополнительных фич любимого препроцессора:</p><p>- миксины и функции</p><p>- написание и использование утилит (например, для медиазапросов)</p><p>- использование циклов и if'ов</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 86,
+                          "title": "Can I Use / Can I Email",
+                          "description": "<p>Использование caniuse.com и caniemal.com для верстки</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 87,
+                          "title": "Верстка писем",
+                          "description": "<p>Умение верстать кроссплатформенные письма</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 88,
+                          "title": "CSS Grid",
+                          "description": "<p>Понимает и разбирается как использовать CSS Grid в верстке</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 89,
+                          "title": "CSS Переменные",
+                          "description": "<p>Использование и знание CSS переменных (не путать с Sass переменными)</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 10,
+                  "title": "Javascript",
+                  "matrix_skills": [
+                      {
+                          "id": 82,
+                          "title": "Базовые концепции",
+                          "description": "<p>- работа с переменными (var, let, const)</p><p>- условия (if, switch, тернарный оператор \"?\")</p><p>- циклы (for, while, do while)</p><p>- основные типы данных (undefined, null, boolean, number, object, string)</p><p>- разница между примитивами и ссылочными типами</p><p>- работа с массивами</p><p>- обработка ошибок (try / catch, throw, объект Error)</p><p>- концепция коллбеков (назначение и использование)</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 90,
+                          "title": "Функции",
+                          "description": "<p>Работа с функциями:</p><p>- объявление (function expression, function declaration, стрелочные)</p><p>- замыкания</p><p>- синтаксис new Instance()</p><p>- this и функции call, bind, apply</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 91,
+                          "title": "Классы",
+                          "description": "<p>Классы:</p><p>- прототипное наследование</p><p>- es6 классы</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 92,
+                          "title": "JS Promises",
+                          "description": "<p>Базовые концепции Promise:</p><p>- назначение</p><p>- написание промисов, составление цепочек, возврат данных</p><p>- обработка ошибок</p><p>- основные методы промисов: Promise.all, Promise.race, Promise.resolve, Promise.reject</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 93,
+                          "title": "Продвинутые концепции JS",
+                          "description": "<p>- Async/await</p><p>- Symbol</p><p>- Proxy</p><p>- Set</p><p>- Map</p><p>- Генераторы</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 94,
+                          "title": "Регулярные выражения",
+                          "description": "<p>Может использовать чужие регулярные выражения и писать свои собственные</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 95,
+                          "title": "Продвинутая работа с массивами",
+                          "description": "<p>Продвинутая работа с массивами:</p><p>- map / filter / reduce / find и другие методы массива</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 96,
+                          "title": "Очень продвинутые концепции JS",
+                          "description": "<p>- BigInt</p><p>- WeakMap</p><p>- WeakSet</p><p>- Web Workers</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 97,
+                          "title": " Работа с датами",
+                          "description": "<p>Знает и учитывает подводные камни работы с датами</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 98,
+                          "title": "Работа с денежными данными",
+                          "description": "<p>Знает и учитывает подводные камни при работе с денежными данными</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 263,
+                          "title": "Event Loop",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 2,
+          "title": "Общие знания в программировании",
+          "matrix_sections": [
+              {
+                  "id": 14,
+                  "title": "Сеть Интернет",
+                  "matrix_skills": [
+                      {
+                          "id": 99,
+                          "title": "HTTP",
+                          "description": "<p>Базовые знания о работе HTTP:</p><p>- базовые методы (GET / POST / PUT / DELETE)</p><p>- принцип отправки и получения сообщений</p><p>- long / short polling</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 100,
+                          "title": "DNS",
+                          "description": "<p>Базовые знания о DNS. Связь с IP адресами.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 101,
+                          "title": "Архитектура REST",
+                          "description": "<p>Имеет понимание того, как устроено rest api. Имеет понимание CRUD.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 102,
+                          "title": "JSON Web Tokens (JWT)",
+                          "description": "<p>Имеет знания о том, что такое JWT. </p><p>Кодирование / Декодирование.</p><p>Access / Refresh токены.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 103,
+                          "title": "Websockets",
+                          "description": "<p>Понимание концепции. Отличие от HTTP.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 104,
+                          "title": "GraphQL",
+                          "description": "<p>Имеет понимание о концепции. Построение запросов, изменение данных, подписывание.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 105,
+                          "title": "HTTP 2",
+                          "description": "<p>Отличия от предыдущих версий HTTP, новые фичи и изменения</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 15,
+                  "title": "Работа с Unix",
+                  "matrix_skills": [
+                      {
+                          "id": 106,
+                          "title": "Базовые знания Bash",
+                          "description": "<p>- ls</p><p>- touch</p><p>- mkdir</p><p>- rm / rmdir</p><p>- man</p><p>- cp</p><p>- mv</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 107,
+                          "title": "Продвинутое использование Bash",
+                          "description": "<p>- ssh/scp</p><p>- vim</p><p>- cat</p><p>- grep</p><p>- find</p><p>- kill</p><p>- https://www.howtogeek.com/107217/how-to-manage-processes-from-the-linux-terminal-10-commands-you-need-to-know/</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 108,
+                          "title": "Bash скриптинг",
+                          "description": "<p>Написание собственных&nbsp;скриптов</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 16,
+                  "title": "Git",
+                  "matrix_skills": [
+                      {
+                          "id": 109,
+                          "title": "Ветвление",
+                          "description": "<p>Основы работы с ветками. </p><p>- создание</p><p>- удаление</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 110,
+                          "title": "Коммиты",
+                          "description": "<p>Понимание что такое коммит. Умение создавать коммиты. Переименовывание последнего коммита.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 111,
+                          "title": "Основные команды",
+                          "description": "<p>- Push</p><p>- Pull</p><p>- Merge</p><p>- Fetch</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 112,
+                          "title": "Cherry pick",
+                          "description": "<p>Понимание cherry-pick, умение работы с ним</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 113,
+                          "title": "Rebase",
+                          "description": "<p>Концепция</p><p>Сквош коммитов</p><p>Интерактивный режим</p><p>Отличия от merge</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 114,
+                          "title": "Reset",
+                          "description": "<p>Отмена (сброс) изменений используя git reset. Отличия soft от hard.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 142,
+                          "title": "Git hooks",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 262,
+                          "title": "Config",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 267,
+                          "title": "Git reflog",
+                          "description": "",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 17,
+                  "title": "Паттерны программирования",
+                  "matrix_skills": [
+                      {
+                          "id": 115,
+                          "title": " DRY / KISS / YAGNI",
+                          "description": "<p>Понимание каждого из подходов (DRY / KISS / YAGNI) и соблюдение его на проектах.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 116,
+                          "title": "Модуль (JS паттерн)",
+                          "description": "<p>Паттерн Модуль. Назначение, вариант имплементации.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 117,
+                          "title": "Синглтон",
+                          "description": "<p>Паттерн Синглтон. Назначение, вариант имплементации.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 118,
+                          "title": "Фабрика",
+                          "description": "<p>Паттерн Фабрика. Назначение, вариант имплементации.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 119,
+                          "title": "Декоратор",
+                          "description": "<p>Паттерн Декоратор. Назначение, вариант имплементации.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 120,
+                          "title": "Наблюдатель",
+                          "description": "<p>Паттерн Наблюдатель. Назначение, вариант имплементации.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 121,
+                          "title": "Итератор",
+                          "description": "<p>Паттерн Итератор. Назначение, вариант имплементации.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 122,
+                          "title": "Фасад",
+                          "description": "<p>Паттерн Фасад. Назначение, вариант имплементации.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 123,
+                          "title": "Адаптер",
+                          "description": "<p>Паттерн Адаптер. Назначение, вариант имплементации.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 124,
+                          "title": "Медиатор",
+                          "description": "<p>Паттерн Медиатор. Назначение, вариант имплементации.</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 18,
+                  "title": "Алгоритмы и структуры данных",
+                  "matrix_skills": [
+                      {
+                          "id": 125,
+                          "title": "Большое \"О\"",
+                          "description": "<p>Понимает концепцию. Может сравнить два алгоритма между собой и пояснить разницу на графиках.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 126,
+                          "title": "Массив. Динамический массив.",
+                          "description": "<p>Может объяснить как устроен динамический массив в его любимом языке программирования. Знает как расширяется данная структура данных.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 127,
+                          "title": "Стек",
+                          "description": "<p>Может объяснить как устроен Стек. Может рассказать как и где он используется.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 128,
+                          "title": "Очередь",
+                          "description": "<p>Может объяснить как устроена Очередь. Может рассказать как и где она используется.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 130,
+                          "title": "Хэш Таблица",
+                          "description": "<p>Может объяснить как устроена хэш таблица. Может рассказать как и где он используется.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 131,
+                          "title": "Деревья",
+                          "description": "<p>Знает устройство и использовал концепцию Деревьев.</p><p>Знает про двоичные деревья. Знает алгоритмы поиска в деревьях.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 132,
+                          "title": "Связанные списки",
+                          "description": "<p>Знает концепцию связанных списков. Может рассказать плюсы и минусы относительно прочих структур данных.</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 19,
+                  "title": "Объектно-ориентированное программирование",
+                  "matrix_skills": [
+                      {
+                          "id": 133,
+                          "title": "Основные концепции",
+                          "description": "<p>Общие концепции ООП. \"Три кита\" ООП.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 134,
+                          "title": "Продвинутые концепции",
+                          "description": "<p>Наследование. Интерфейс. Абстрактные классы.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 135,
+                          "title": "Очень продвинутые концепции",
+                          "description": "<p>Множественное наследование. Перегрузка методов.</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 268,
+                          "title": "SOLID",
+                          "description": "<p>Что это и зачем?</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 20,
+                  "title": "Сборка проектов",
+                  "matrix_skills": [
+                      {
+                          "id": 136,
+                          "title": "Основы Gulp",
+                          "description": "<p>- базовые знания построения конфига</p><p>- формат написания тасков</p><p>- pipe, использование сторонних библиотек</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 137,
+                          "title": "Основы Webpack",
+                          "description": "<p>- entry / output</p><p>- базовые представления о назначении модулей</p><p>- базовые представления о назначении плагинов</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 138,
+                          "title": "Продвинутый Gulp",
+                          "description": "<p>Дорабатывание существующих конфигов используя примеры из интернета.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 139,
+                          "title": "Продвинутый Webpack",
+                          "description": "<p>-  Дорабатывание конфигов используя примеры из интернета</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 140,
+                          "title": "Очень продвинутый Gulp",
+                          "description": "<p>- написание любых конфигов основываясь на собственных знаниях и опыте</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 141,
+                          "title": "Очень продвинутый webpack",
+                          "description": "<p>- написание любых конфигов основываясь на собственных знаниях и опыте</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 21,
+                  "title": "Стиль кода",
+                  "matrix_skills": [
+                      {
+                          "id": 181,
+                          "title": "Базовые знания о форматировании",
+                          "description": "<p>- Может использовать встроенные в IDE функции для форматирования</p><p>- Использует уже настроенный кем-то линтер и форматер</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 182,
+                          "title": "Продвинутые знания о форматировании",
+                          "description": "<p>Может подключить prettier и линтер используя знания из интернета. </p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 183,
+                          "title": "Самые продвинутые знания о форматировании",
+                          "description": "<p>Может написать собственный конфиг в зависимости от принятого кодстайла на проекте и предложить собственный. Разбирается в тонкостях eslint и prettier.</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 184,
+                          "title": "Husky",
+                          "description": "<p>Может настроить и использовать husky</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 22,
+                  "title": "Пакетные менеджеры (Node)",
+                  "matrix_skills": [
+                      {
+                          "id": 185,
+                          "title": "Package.json",
+                          "description": "<p>- Знает как читать package.json. </p><p>- Отличия dependencies от devDependencies. </p><p>- Семантическое версионирование (SemVer). </p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 186,
+                          "title": "Базовая работа с NPM",
+                          "description": "<p>- Установка пакетов в проект</p><p>- Обновление пакетов в проекте</p><p>- Удаление пакетов в проекте</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 187,
+                          "title": "Lock файлы",
+                          "description": "<p>Целостное понимание назначения и устройства lock файлов.</p><p><br></p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 188,
+                          "title": "Дополнительные фичи NPM",
+                          "description": "<p>- глобальная установка пакетов</p><p>- npx</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 189,
+                          "title": "Устройство node_modules",
+                          "description": "<p>- Целостное понимание папки node_modules</p><p>- Резолвинг пакетов с разными версиями</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 190,
+                          "title": "Lerna / Yarn Workspaces",
+                          "description": "<p>Монорепо. Использование Lerna или Yarn Workspaces. </p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 265,
+                          "title": "Публикация npm пакета",
+                          "description": "<p>Публиковал npm пакет и знает как это делать.</p>",
+                          "level": "senior"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 3,
+          "title": "FRONTend",
+          "matrix_sections": [
+              {
+                  "id": 4,
+                  "title": "DOM & Browser API",
+                  "matrix_skills": [
+                      {
+                          "id": 22,
+                          "title": "DOM",
+                          "description": "<p>- концепция дерева</p><p>- работа с элементами: создание, удаление, поиск, изменение атрибутов и свойств</p><p>- вычисление размеров элемента и экрана</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 23,
+                          "title": "Браузерные события",
+                          "description": "<p>- всплытие и погружение</p><p>- делегирование.</p><p>- подписка / отписка и использование событий</p><p>- DOMContentLoaded</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 24,
+                          "title": "Работа с сетью",
+                          "description": "<p>- XMLHttpRequest</p><p>- Fetch api</p><p><br></p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 25,
+                          "title": "Работа с хранилищами",
+                          "description": "<p>- Cookies</p><p>- LocalStorage</p><p><br></p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 26,
+                          "title": "Расширенная работа с API",
+                          "description": "<p>Знает больше браузерных API, способен выбрать среди разных схожих решений одно и аргументировать свое решение</p><p>Работа с полифилами (подбор, подключение и использование)</p><p>Работа с хранилищами:</p><p>- SessionStorage</p><p>- Indexed DB</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 5,
+                  "title": "React",
+                  "matrix_skills": [
+                      {
+                          "id": 27,
+                          "title": "Основы React",
+                          "description": "<p>- Компонентный подход. Компоненты на классах и функциях.</p><p>- Концепция JSX</p><p>- Концепция Virtual DOM</p><p>- Концепция Props и State. Children prop. State Lifting.</p><p>- Жизненный цикл классовых компонентов</p><p>- Refs</p><p>- React fragment</p><p>- Аутентификация в приложении</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 28,
+                          "title": "Работа с сетью в React приложениях",
+                          "description": "<p>- Работа с Rest like api.</p><p>- Использование axios/fetch и написание модуля запросов</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 29,
+                          "title": "Стилизация  React приложений",
+                          "description": "<p>- работа с css</p><p>- базовые концепции работы с одним из css-in-js решением (styled-components, css modules, emotion)</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 30,
+                          "title": "Дебаггинг и самодокументируемость",
+                          "description": "<p>- Умение работать с react devtools</p><p>- Описание PropTypes</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 31,
+                          "title": "Роутинг",
+                          "description": "<p>Понимание базовых концепций клиентского роутинга, хотя бы одного на выбор:</p><p>- React router (рекомендуется)</p><p>- Reach router</p><p><br></p><p>Умение описать guarded (aka private) роутеры, считывать данные из адресной строки и навигироваться по страницам.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 32,
+                          "title": "Основы React Hooks",
+                          "description": "<p>Необходимо знание следующих хуков:</p><p>- useState</p><p>- useEffect</p><p>- useRef</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 33,
+                          "title": "Паттерны React",
+                          "description": "<p>- High order component</p><p>- Render prop / Function as child</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 34,
+                          "title": "Работа с GraphQl",
+                          "description": "<p>Использовал GraphQl на проекте. Рекомендуется использование библиотек Apollo.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 35,
+                          "title": "Расширенные знания по React API",
+                          "description": "<p>- Отличия работы внутренних переменных в классовом компоненте и в функциональном</p><p>- Context API</p><p>- React Portals</p><p>- Refs forwarding</p><p>- React.memo</p><p>- PureComponent</p><p>- Synthetic events</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 36,
+                          "title": "Основы Анимации",
+                          "description": "<p>- умение работать с react-transition-grop (CCS Transition)</p><p>- умение работать с одной из библиотек JS анимаций на выбор (framer motion [<strong>рекомендуется</strong>], react-spring, react-pose)</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 37,
+                          "title": "Продвинутый роутинг",
+                          "description": "<p>- Работа с ssr роутерами (например с nextjs router)</p><p>- Построение роутера с разделением на чанки (через react.lazy + react suspense)</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 38,
+                          "title": "Продвинутый React Hooks",
+                          "description": "<p>Понимание и умение пользоваться:</p><p>- useReducer</p><p>- useMemo</p><p>- useCallback</p><p>- useLayoutEffect</p><p>- useContext</p><p><br></p><p>Так же требуется умение работать с 3rd-party хуками, которые идут в комплекте с библиотеками (например useDispatch или useLocation)</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 39,
+                          "title": "Продвинутые анимации",
+                          "description": "<p>Умение работать c агностичными библиотеками в реакте. Например со следующими популярными:</p><p>- GSAP</p><p>- Animejs</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 40,
+                          "title": "Очень продвинутые React Hooks",
+                          "description": "<p>Написание собственных хуков</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 74,
+                          "title": "Работа с формами",
+                          "description": "<p>Умение писать формы с валидацией. Плюсом будет знание одной из библиотек:</p><p>- Formik</p><p>- React Hook Form</p>",
+                          "level": "junior"
+                      }
+                  ]
+              },
+              {
+                  "id": 6,
+                  "title": "React Native",
+                  "matrix_skills": [
+                      {
+                          "id": 285,
+                          "title": "Основы",
+                          "description": "<ul><li>Базовые знания принципа работы</li><li>Components</li><li>API</li><li>Styling</li><li>Умение запустить проект в XCode и Android Studio в разных режимах (релиз/дебаг)</li></ul>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 286,
+                          "title": "Навигация",
+                          "description": "<p>React Navigation</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 287,
+                          "title": "Дебаггинг (Базовый уровень)",
+                          "description": "<ul><li>Developer menu</li><li>Chrome dev tools</li><li>React dev tools</li><li>LogBox API</li></ul>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 288,
+                          "title": "Анимации",
+                          "description": "<ul><li>Animated (React Native API)</li><li>Animatable</li><li>Reanimated</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 289,
+                          "title": "Жесты",
+                          "description": "<ul><li>PanResponder (React Native API)</li><li>Gesture Handler (react-native-gesture-handler)</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 290,
+                          "title": "Хранилище",
+                          "description": "<ul><li>Async Storage (<span style=\"background-color: white; color: black;\">@react-native-async-storage/async-storage)</span></li><li>MMVK Storage (react-native-mmkv-storage)</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 291,
+                          "title": "Permissions",
+                          "description": "<ul><li>Permissions в Info.plist и AndroidManifest.xml</li><li>react-native-permissions</li></ul>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 292,
+                          "title": "Клавиатура",
+                          "description": "<ul><li>Keyboard API</li><li>Avoiding keyboard (способы избежать перекрытия важного контента клавиатурой)</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 293,
+                          "title": "Нативные модули (Базовый уровень)",
+                          "description": "<ul><li>Подключение нативного модуля</li><li>Использование коллбэка для получения данных</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 294,
+                          "title": "Пуш-уведомления",
+                          "description": "<ul><li>Умение работать с Firebase Messaging (или с его альтернативой)</li><li>react-native-notifications или react-native-push-notification</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 295,
+                          "title": "Deep linking",
+                          "description": "<p>Умение настроить deep linking для каждой платформы, передавать данные и переходить на определенные экраны. Рекомендуется использование React Navigation.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 296,
+                          "title": "Изменение темы",
+                          "description": "<ul><li>Динамическое изменение темы</li><li>Изменение темы через настройки системы (темная/светлая)</li><li>Изменение темы через логику приложения (например, тогглер)</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 297,
+                          "title": "Нативные модули (Продвинутый уровень)",
+                          "description": "<ul><li>Промисы</li><li>Евенты</li><li>Переключение на нативный экран (Activity, ViewController)</li><li>Вызов события из любой точки нативного приложения (вне функций, которые экспортируются в нейтив)</li><li>Использование Swift для написания нативного модуля для iOS</li></ul>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 298,
+                          "title": "Деплой",
+                          "description": "<ul><li>Генерация сертификатов/профайлов для Apple и keystore файла для Google</li><li>Выгрузка приложений во внутреннее тестирование сторов (Google Internal Testing и Testflight)</li><li>Публикация сборок в сторы</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 299,
+                          "title": "Дебаггинг (Продвинутый уровень)",
+                          "description": "<ul><li>Дебаг приложения в релиз моде</li><li>Дебаг нативных модулей</li><li>Использование сервиса мониторинга ошибок (Sentry или Crashlytics)</li></ul>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 300,
+                          "title": "Отпимизация и профилирование",
+                          "description": "<ul><li>Основы оптимизации React Native приложений</li><li>Профилирование с помощью XCode и Android Studio (умение увидеть нагрузку на процессор, память и т.д.)</li></ul>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 301,
+                          "title": "Expo (Минимум)",
+                          "description": "<ul><li>Плюсы и минусы Expo перед React Native</li><li>Запуск Expo-приложения</li><li>Конвертация Expo-проекта в проект React Native</li></ul>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 302,
+                          "title": "Hermes",
+                          "description": "<ul><li>Зачем нужен</li><li>Использование в React Native приложении</li></ul>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 303,
+                          "title": "Flipper",
+                          "description": "<ul><li>Преимущества перед остальными дебаггерами</li><li>Использование десктопного приложения</li><li>Написание собственных плагинов </li></ul>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 304,
+                          "title": "Шрифты",
+                          "description": "<p>Подключение и использование</p>",
+                          "level": "junior"
+                      }
+                  ]
+              },
+              {
+                  "id": 7,
+                  "title": "Angular 2+",
+                  "matrix_skills": [
+                      {
+                          "id": 51,
+                          "title": " Основы Angular",
+                          "description": "<p>- Angular CLI</p><p>- Концепция Angular Modules</p><p>- Архитектура построения приложений с разделением на Core / Shared модули</p><p>- Концепция директив и компонентов</p><p>- Базовые знания о Pipe (назначение и использование)</p><p>- Биндинг данных, концепция Input и Output декораторов</p><p>- Аутентификация в приложении</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 52,
+                          "title": "Основы RxJs",
+                          "description": "<p>- функция pipe</p><p>- filter</p><p>- map</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 53,
+                          "title": "Angular Services",
+                          "description": "<p>Использование сервисов:</p><p>- как хранилищ</p><p>- для получения данных из удаленных источников</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 54,
+                          "title": "Роутинг",
+                          "description": "<p>- Создание роутера</p><p>- Guards</p><p>- Разделение по модулям</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 55,
+                          "title": "Написание форм",
+                          "description": "<p>Написание форм одним из методов:</p><p>- Используя темплейты</p><p>- Объявление в контроллере</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 56,
+                          "title": "Дебаггинг",
+                          "description": "<p>- Использование Augry</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 57,
+                          "title": "Продвинутые концепции Angular",
+                          "description": "<p>- Pure vs impure pipes.</p><p>- Dependency Injection. Разница между разным подключение сервисов (на один компонент, на все приложение)</p><p>- Detection Strategy (Default, OnPush)</p><p>- Refs</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 58,
+                          "title": "Анимации",
+                          "description": "<p> Использование Angular Animation API.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 59,
+                          "title": "Тестирование приложений",
+                          "description": "<p>- Тестирование компонентов</p><p>- Тестирование сервисов</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 8,
+                  "title": "State Managment",
+                  "matrix_skills": [
+                      {
+                          "id": 60,
+                          "title": "Концепция FLUX",
+                          "description": "<p>Концепция FLUX. Понимание сторов и экшенов. Если это redux, то в том числе и редьюсеров.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 61,
+                          "title": "Основы Redux",
+                          "description": "<p>Основы Redux:</p><p>- может построить небольшой стор и описать экшены и редьюсеры</p><p>- может поддерживать чужой стор добавляя новые не сложные фичи</p><p>- знает redux-thunk</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 62,
+                          "title": "Основы MobX",
+                          "description": "<p>- может построить небольшой стор и описать экшены</p><p>- может поддерживать чужой стор и добавлять небольшие фичи</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 63,
+                          "title": "Основы NgRx",
+                          "description": "<p>- может построить небольшой стор и описать экшены</p><p>- может поддерживать чужой стор и добавлять небольшие фичи</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 64,
+                          "title": "Продвинутые концепции",
+                          "description": "<p>- Нормализация</p><p>- Селекторы</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 65,
+                          "title": "Продвинутый Redux",
+                          "description": "<p>- может описать сложный стор, понимает как можно \"разрезать\" стор и как redux влияет на производительность</p><p>- имеет опыт работы с redux-saga</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 66,
+                          "title": "Продвинутый MobX",
+                          "description": "<p>- знает все фичи mobx (autorun, when, reaction)</p><p>- может описать сложный стор для большого приложения так, что бы было удобно делать запросы из разных частей</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 67,
+                          "title": "Продвинутый NgRx",
+                          "description": "<p>- знает все фичи ngrx</p><p>- имеет опыт работы с detection strategy вместе с ngrx</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 68,
+                          "title": "Очень продвинутый redux",
+                          "description": "<p>- Может написать свой redux-middleware</p><p>- Много разных использований redux-saga (например saga channels)</p><p>- Использование библиотек для уменьшения бойлерплейта (например Redux-Toolkit)</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 69,
+                          "title": "Mobx State Tree",
+                          "description": "<p>Использовал Mobx state tree, может писать приложения на нем</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 9,
+                  "title": "Тестирование React",
+                  "matrix_skills": [
+                      {
+                          "id": 70,
+                          "title": "Тестирование снэпшотами",
+                          "description": "<p>Тестирование снепшотами используя jest</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 71,
+                          "title": "Тестирование утилит",
+                          "description": "<p>Может писать юнит тесты для утилит и редакса.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 72,
+                          "title": "Тестирование поведения",
+                          "description": "<p>Может писать полноценные тесты для компонентов. Используя Enzyme или альтернативные библиотеки.</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 73,
+                          "title": "E2E тестирование",
+                          "description": "<p>Может писать  E2E тесты используя хедлесс браузеры</p>",
+                          "level": "senior"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 4,
+          "title": "BACKEND",
+          "matrix_sections": [
+              {
+                  "id": 23,
+                  "title": "node.js",
+                  "matrix_skills": [
+                      {
+                          "id": 143,
+                          "title": "Основы фрэймворка",
+                          "description": "<p>- на базе чего написан</p><p>- основные концепции</p><p>- какие плюсы и минусы есть</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 144,
+                          "title": "Что такое callback-hell и как с ним бороться?",
+                          "description": "<p>4 решения</p><p>Практически может уйти от колбэка</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 145,
+                          "title": "Как установить несколько версий nodejs в одной системе?",
+                          "description": "<p>что эта штука еще умеет делать</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 146,
+                          "title": "Может написать сервер без express, koa, etc",
+                          "description": "<p>Нюансы разработки на чистом node.js</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 147,
+                          "title": "Что такое error-first колбэки",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 148,
+                          "title": "pm2",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 149,
+                          "title": "FS module",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 150,
+                          "title": "Child Process module",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 151,
+                          "title": "Stream module",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 152,
+                          "title": "Cluster module",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 154,
+                          "title": "Как устроен event-loop",
+                          "description": "<p>Объяснить с примером</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 155,
+                          "title": "Что такое libuv",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 156,
+                          "title": "Глобальная переменная process",
+                          "description": "<p>рассказать НЕ про process.env</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 24,
+                  "title": "NoSQL",
+                  "matrix_skills": [
+                      {
+                          "id": 157,
+                          "title": "Что такое NoSQL",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 158,
+                          "title": "MongoDB",
+                          "description": "<ul><li>что за база и что умеет</li><li>как строятся запросы</li><li>устройство БД</li></ul>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 159,
+                          "title": "Mongoose",
+                          "description": "<p>- схемы</p><p>- запросы</p><p>- написание миграций</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 160,
+                          "title": "Как устроена индексация",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 161,
+                          "title": "AWS Dynamo, Firebase database/firestore.",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 162,
+                          "title": "Отличия от SQL",
+                          "description": "<p>а так же плюсы и минусы</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 163,
+                          "title": "Масштабирование",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 164,
+                          "title": "Шардирование",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 165,
+                          "title": "Кластеры",
+                          "description": "<p>знать где и как можно развернуть кластер серверов в облаке (например AWS)</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 266,
+                          "title": "средства AWS для масштабирования и балансировки нагрузки",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 25,
+                  "title": "SQL",
+                  "matrix_skills": [
+                      {
+                          "id": 166,
+                          "title": "Что такое SQL?",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 167,
+                          "title": "Отношения в базах данных",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 168,
+                          "title": "Sequelize",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 169,
+                          "title": "Knex",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 170,
+                          "title": "Пишет миграции и сиды",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 171,
+                          "title": "Как устроена индексация",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 172,
+                          "title": "Транзакции, ACID",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 173,
+                          "title": "Профилирование запросов",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 174,
+                          "title": "Join's",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 175,
+                          "title": "Разница между postgres, mysql, mariaDB, sqlite, mssql",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 176,
+                          "title": "Отличия от NoSQL",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 177,
+                          "title": "Масштабирование",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 178,
+                          "title": "использование нескольких типов баз на одном проекте. каждая база решает определенную задачу",
+                          "description": "<p><br></p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 179,
+                          "title": "знать где и как можно развернуть кластер серверов в облаке",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 180,
+                          "title": "средства AWS для масштабирования и балансировки нагрузки",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 26,
+                  "title": "Auth",
+                  "matrix_skills": [
+                      {
+                          "id": 191,
+                          "title": "Знает разницу между авторизацией и аутентификацией",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 192,
+                          "title": "Теоретические основы в разных подходах авторизации",
+                          "description": "<p>- JWT</p><p><span style=\"color: black;\">- Basic auth</span></p><p>- 0Auth/0Auth 2</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 193,
+                          "title": "Объяснить работу JWT",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 194,
+                          "title": "Сторонние сервисы авторизации и аутентификации",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 195,
+                          "title": "JWT с множеством устройств для одного пользователя",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 196,
+                          "title": "Сессии",
+                          "description": "",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 27,
+                  "title": "API",
+                  "matrix_skills": [
+                      {
+                          "id": 197,
+                          "title": "Знаком с несколькоми видами API",
+                          "description": "<p>- REST</p><p>- GraphQL</p><p>- Soap</p><p>- JSON</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 198,
+                          "title": "CRUD",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 199,
+                          "title": "PUT vs PATCH",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 200,
+                          "title": "Swagger",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 201,
+                          "title": "HTTP headers",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 202,
+                          "title": "Проектирование API",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 203,
+                          "title": "Защита API",
+                          "description": "<p>- cors</p><p>- auth</p><p>- csrf</p><p>- xss</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 28,
+                  "title": "Caching",
+                  "matrix_skills": [
+                      {
+                          "id": 204,
+                          "title": "Библиотеки для кэширования",
+                          "description": "<p>-Redis</p><p>-RabbitMQ</p><p>-memcached</p><p>-SQLite</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 205,
+                          "title": "Кэширование API",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 206,
+                          "title": "CDN",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 29,
+                  "title": "NODE.JS FRAMEWORKS",
+                  "matrix_skills": [
+                      {
+                          "id": 208,
+                          "title": "Наличие опыта хоть с одним из Express, koa, hapi",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 209,
+                          "title": "Middlewares",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 210,
+                          "title": "Наличие опыта в нескольких фреймворках из Express, koa, hapi, sails.js",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 211,
+                          "title": "Почему server.js и app.js нужно разносить?",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 212,
+                          "title": "Планирование архитектуры сервера",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 213,
+                          "title": "Serverless",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 214,
+                          "title": "Микросервисная архитектура",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 222,
+                          "title": "Основы архитектурных паттернов",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 223,
+                          "title": "Архитектура на базе событийной системы",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 224,
+                          "title": "Архитектура сервера",
+                          "description": "<p>Понимание и масштабирование всех архитектур, а так же понимание их применение в той или иной ситуации</p><p><br></p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 30,
+                  "title": "Тестирование",
+                  "matrix_skills": [
+                      {
+                          "id": 216,
+                          "title": "Jest",
+                          "description": "<p>Основы фрэймворка</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 217,
+                          "title": "Виды тестирования",
+                          "description": "<p>-модульное</p><p>-интеграционое</p><p>-E2E</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 218,
+                          "title": "Продвинутое использование Jest",
+                          "description": "<p>mock</p><p>jest-object</p><p>конфигурирование</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 219,
+                          "title": "Покрытие тестами",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 220,
+                          "title": "TDD, BDD",
+                          "description": "<p>не только знает как расшифровываются TDD, BDD, но так же применяет их на практике</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 221,
+                          "title": "мокает пакеты уровня npm",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 31,
+                  "title": "Отладка",
+                  "matrix_skills": [
+                      {
+                          "id": 225,
+                          "title": "Решает все вопросы через console.log()",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 226,
+                          "title": "Умеет настроить дебаггер в IDE",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 227,
+                          "title": "Заворачивает все и вся в try/catch",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 228,
+                          "title": "Использует логирование как инструмент мониторинга приложения",
+                          "description": "<p>например winston</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 229,
+                          "title": "CloudWatch, Sentry.io",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 32,
+                  "title": "Messages brokers",
+                  "matrix_skills": [
+                      {
+                          "id": 230,
+                          "title": "Библиотеки",
+                          "description": "<p>- Kafka</p><p>- RabbitMQ</p><p>- Redis</p><p>- AWS SQS</p>",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 33,
+                  "title": "nginx",
+                  "matrix_skills": [
+                      {
+                          "id": 231,
+                          "title": "Базовая настройка",
+                          "description": "<p>- настройка прослушивания определенных портов</p><p>- раздача статики</p><p>- обратное проксирование</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 232,
+                          "title": "Продвинутое знание nginx",
+                          "description": "<p>-настройка одного конфига на работу с несколькими серверами</p><p>-подключение SSL</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 233,
+                          "title": "Углубленные знания nginx",
+                          "description": "<p>-perfomance</p><p>-gzip</p><p>-cache</p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 34,
+                  "title": "Масштабирование",
+                  "matrix_skills": [
+                      {
+                          "id": 234,
+                          "title": "Знает что такое масштабировании приложений и как это реализуется в теории",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 235,
+                          "title": "Углубленные знания по мастабированию",
+                          "description": "<p>В курсе вертикального и горизонтального масштабирования.</p><p>Имеет практический опыт в построении сложных масштабируемых систем</p><p><span style=\"background-color: white;\">Способен писать код, с учетом подобных сценариев</span></p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 236,
+                          "title": "Способен внедрить масштабирование в существующий сложный проект",
+                          "description": "<p>Способен внедрить масштабирование в существующий сложный проект (начиная от изменений в коде и заканчивая DevOps-задачами, при этом не обязательно все выполнять самостоятельно). Понимает ограничения масштабирования, риски при этом возникающие и метрики, которые необходимо отслеживать</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 237,
+                          "title": "Базовые знания Docker",
+                          "description": "<p>-написание конфига</p><p>-заворачивание проекта в контейнер</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 238,
+                          "title": "Способен выполнять все функции DevOps, включая развертывание, поддержку и масштабирование сложных кластеров",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 239,
+                          "title": "Управление системой контейнеров",
+                          "description": "<p>Владеет на минимальном уровне системами управлениями конфигурациями (Chef, Ansible). Понимает и имеет опыт управления с Kubernetes или схожими системами, способен решать задачи zero-time deployment и писать код с учетом подобных потребностей</p>",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 240,
+                          "title": "Kubernetes",
+                          "description": "",
+                          "level": "middle"
+                      }
+                  ]
+              },
+              {
+                  "id": 35,
+                  "title": "CI/CD",
+                  "matrix_skills": [
+                      {
+                          "id": 241,
+                          "title": "Настройка VPS",
+                          "description": "<p>настройка VPS (начиная с момента оформления на сайте) и дальнейший деплой \"ручками\"</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 242,
+                          "title": "Может написать скрипт автосборки и деплоя",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 243,
+                          "title": "pm2 deploy",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 244,
+                          "title": "Понимает принципы CI, способен разобраться в проблемах с билдом на CI",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 245,
+                          "title": "CI/CD сервисы",
+                          "description": "<p>Имеет опыт хотя бы с одним из сервисов:</p><p>- CircleCI</p><p>- TravisCI</p><p>- Gitlab CI/CD</p><p>- TeamCity</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 246,
+                          "title": "Может настроить CI/CD в связке github / gitlab",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 247,
+                          "title": "Способен с нуля поднять сложный CI на существующем проекте. Знает слабые места CI-процессов и как их обойти.",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 36,
+                  "title": "Cloud platforms",
+                  "matrix_skills": [
+                      {
+                          "id": 248,
+                          "title": "Gitlab",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 249,
+                          "title": "AWS EC2, S3, Lambda",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 250,
+                          "title": "Firebase database/firestore/auth",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 251,
+                          "title": "Остальные сервисы firebase",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 252,
+                          "title": "GCP",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 253,
+                          "title": "Авторизация и взаимодействие с Google API",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 254,
+                          "title": "Остальные сервисы AWS",
+                          "description": "<p><span style=\"color: black;\">-Metrics</span></p><p><span style=\"color: black;\">-Rekognition</span></p><p><span style=\"color: black;\">-RDS</span></p>",
+                          "level": "senior"
+                      }
+                  ]
+              },
+              {
+                  "id": 37,
+                  "title": "Scrapping",
+                  "matrix_skills": [
+                      {
+                          "id": 255,
+                          "title": "cheerio / puppeteer",
+                          "description": "<p>Может извлечь простую информацию с сайта</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 256,
+                          "title": "Знает как распарсить SPA или ajax страницу и какие сложности могут быть",
+                          "description": "",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 257,
+                          "title": "Работа с капчой",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 258,
+                          "title": "Деплой парсера в облако",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 259,
+                          "title": "Работа с прокси",
+                          "description": "",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 260,
+                          "title": "Обход блокировки/бана парсера",
+                          "description": "",
+                          "level": "senior"
+                      },
+                      {
+                          "id": 261,
+                          "title": "Повторная обработка упавших страниц (например в случае бана)",
+                          "description": "",
+                          "level": "senior"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 5,
+          "title": "управление проектами",
+          "matrix_sections": []
+      },
+      {
+          "id": 6,
+          "title": "Sales навыки",
+          "matrix_sections": []
+      },
+      {
+          "id": 7,
+          "title": "Навыки QA",
+          "matrix_sections": [
+              {
+                  "id": 38,
+                  "title": "РУЧНОЕ ТЕСТИРОВАНИЕ",
+                  "matrix_skills": [
+                      {
+                          "id": 269,
+                          "title": "Методология",
+                          "description": "<p>- Общее понимание методологии и места тестирования в ней.</p><p>- Scrum</p><p>- Kanban</p><p>- Waterfall</p><p>- STLC - что это. Этапы.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 270,
+                          "title": "Теория Тестирования",
+                          "description": "<p>Тестовая документация:</p><p>- Чек-лист</p><p>- Тест-сьют</p><p>- Тест-кейс</p><p>- Баг-репорт</p><p>...</p><p><br></p><p>Тест-дизайн:</p><p>- Основные методы тест дизайна.</p><p><br></p><p>Семь принципов эффективного тестирования.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 271,
+                          "title": "Базовые Знания Верстки",
+                          "description": "<p>Основы:</p><p>- Строчные и блочные элементы(чем отличаются)</p><p>- input/textarea</p><p>- padding,</p><p>- margin,</p><p>- селекторы</p><p>...</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 272,
+                          "title": "Работа с Менеджерами Баз Данных",
+                          "description": "<p>- Valentina Studio</p><p>- DBeaver</p><p>- DataGrip</p><p>...</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 273,
+                          "title": "DevTools",
+                          "description": "<p>Основные экраны.</p><p>Chrome:</p><ul><li> Console</li><li>Elements</li><li>Network</li><li>Application</li><li>Performance</li></ul><p>Что и где можно посмотреть.</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 274,
+                          "title": "Git",
+                          "description": "<ul><li>Что такое Система Контроля Версий и для чего предназначена</li><li>Что такое \"branch\"</li><li>Как посмотреть название branch-ей и как переключаться между ними</li><li>Что такое \"commit\" и как посмотреть последний commit</li><li>Отслеживание изменений</li><li>Фиксирование изменений</li></ul>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 275,
+                          "title": "Bash (command line)",
+                          "description": "<ul><li>cd</li><li>pwd</li><li>mkdir</li><li>ls</li><li>rm</li><li>grep</li><li>find</li><li>echo</li><li>touch</li><li>&amp;</li><li>&amp;&amp;</li><li>||</li><li>|</li><li>;</li><li>$()</li><li>&gt;</li><li>&gt;&gt;</li></ul><p>...</p><p><br></p><p>- как запустить программу/скрипт</p><p>- редактор текста ( nano, vim )</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 276,
+                          "title": "Rest API/Soap",
+                          "description": "<p>Что такое Rest API и Soap?</p><p>Типы HTTP-запроса:</p><p>GET</p><p>POST</p><p>PUT</p><p>DELETE</p><p>Коды состояния:</p><p>1xx</p><p>2xx</p><p>3xx</p><p>4xx</p><p>5xx</p><p><br></p><p>Работа с инстументами:</p><p>- postman</p><p>- curl</p><p>...</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 277,
+                          "title": " Cache, Cookie, Local Storage",
+                          "description": "<p>Для чего используются cache, cookie, local storage и Session Storage .</p>",
+                          "level": "junior"
+                      },
+                      {
+                          "id": 278,
+                          "title": "СУБД",
+                          "description": "<p>- Умение работать с разными СУБД(postgres) через</p><p>консоль вручную.</p><p>- Установка СУБД</p><p>- Просмотр/создание/изменение ролей</p><p>- Шаринг прав</p><p>- Очистка БД/удаление-создание БД</p><p><br></p><p>Общее представление о том что такое бд (реляционные/иерархические).</p><p>Основные запросы SQL:</p><p>- SELECT, FROM</p><p>- WHERE</p><p>- GROUP BY</p><p>- HAVING</p><p>- ORDER BY</p><p>- DISTINCT</p><p>- JOIN</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 279,
+                          "title": "Security",
+                          "description": "<p>Знание самых \"популярных\" уязвимостей</p><p>- Idore</p><p>- XSS</p><p>- SQL injections</p><p>...</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 280,
+                          "title": "Bash, ssh",
+                          "description": "<p>Написание простых Bash-скриптов:</p><ul><li>shebang</li><li>функции</li><li>условия ( if, then, elif )</li><li>циклы ( for, while, case )</li><li>redirection ( &lt; &lt;&lt; &gt; &gt;&gt; )</li><li>word splitting</li><li>sort</li></ul><p><br></p><p>SSH:</p><ul><li>Созданние public_key</li><li>Подключение к удаденным устройствам</li><li>Передача файлов через secure shell</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 281,
+                          "title": "DevTools Extensions",
+                          "description": "<p>- React-Redux</p><p>- React-Components (более для dev-s, но все</p><p>равно не будет лишним)</p><p>- Умение пользоваться настройками Settings в DevTools</p><p>...</p>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 282,
+                          "title": "Ведение документации",
+                          "description": "<p>Написание:</p><p>- тест-кейс</p><p>- тест-сьют</p><p>- тест-план</p><p><br></p><p>Настройка баг-трекинговых систем:</p><ul><li>Qase</li><li>Jira</li><li>Tetreal</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 283,
+                          "title": "Инструменты Тестирования Мобильных Приложений",
+                          "description": "<p>Android Studio,</p><p>XCode</p><p>-</p><p>Fiddler</p><p>Charles</p><p>-</p><p>Android File Transfer</p><p>-</p><p>Vysor</p><p>===================================</p><ul><li>Умение разворачивать проекты на эмуляторах</li><li>Умение перехватывать трафик и менять принимаемые/отправляемые значения</li><li>Умение передавать файлы между различными файловыми системами</li><li>Умение подключать мобильные устройства к десктопным DevTools.</li><li>Шаринг экрана через Vysor</li></ul>",
+                          "level": "middle"
+                      },
+                      {
+                          "id": 284,
+                          "title": "GraphQL",
+                          "description": "<ul><li>Понимание принципов Graphql</li><li>Отличие GraphQL от REST</li><li>Умение читать схемы</li><li>Умение пользоваться QUERY и MUTATIONS</li><li>Составление запросов, используя GraphQL</li></ul><p><br></p><p>Инструменты:</p><ul><li>Postman</li><li>Insomnia</li></ul><p>...</p>",
+                          "level": "middle"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 8,
+          "title": "Soft скиллы",
+          "matrix_sections": []
+      }
+  ]
+}
