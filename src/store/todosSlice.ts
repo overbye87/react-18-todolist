@@ -4,6 +4,11 @@ import type { RootState } from "./store"
 
 const initialState: ITodos = []
 
+interface IEditTodo {
+  id: number,
+  title: string,
+}
+
 export const todosSlice = createSlice({
   name: 'todos',
   initialState,
@@ -24,6 +29,14 @@ export const todosSlice = createSlice({
           : todo
         )
     },
+    editTodo: (store, action: PayloadAction<IEditTodo>) => {
+      return store.map(
+        (todo) => 
+          todo.id === action.payload.id
+          ? {...todo, title: action.payload.title }
+          : todo
+        )
+    },
   }
 })
 
@@ -31,6 +44,7 @@ export const {
   addTodo,
   removeTodo,
   toggleTodo,
+  editTodo,
 } = todosSlice.actions
 
 export const selectTodos = (state: RootState) => state.todos
