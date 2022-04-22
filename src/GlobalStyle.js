@@ -25,12 +25,29 @@ const GlobalStyle = createGlobalStyle`
       font-size: 0.7em;
       color: darkred;
     }
-    .checkbox {
-      transform:scale(2); 
+    .list-item {
+      display: flex;
+      gap: 1em;
+      .edit {
+        width: 20em;
+        
+        &-input{
+          border: inherit;
+          padding: inherit;
+          background-color: black;
+          color: inherit;
+          font-family: inherit;
+          width: 20em;
+
+        }
+      }
+      .checkbox {
+        transform:scale(2); 
+      }
     }
     .select{
       color: #282c34;
-      width: 10em;
+      width: 20em;
     }
     .nav{
       margin-bottom: 1em;
