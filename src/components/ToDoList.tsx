@@ -7,9 +7,9 @@ interface IProps {
 }
 
 const ToDoList: React.FC<IProps> = (props) => {
-  if (!props.todos.length) return <span>nothing to show</span>
+  if (!props.todos.length) return <ul className="todo-list"><li className="list-item">Nothing to show...</li></ul>
   return (
-    <ul>
+    <ul className="todo-list">
       {props.todos.map((todo) => 
         <ToDoItem 
           key={todo.id}

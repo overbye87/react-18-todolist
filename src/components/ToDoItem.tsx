@@ -55,31 +55,29 @@ const ToDoItem: React.FC<IProps> = (props) => {
   }
 
   return (
-    <li className='list-item'>
+    <li className="list-item">
       <input
         className="checkbox"
         type="checkbox"
         checked={props.todo.isDone}
         onChange={handleSetChecked}
       />
-      <div>
-        {isEdit
-          ? <input
-              ref={inputElement}
-              value={inputValue}
-              onChange={handleChangeInputValue}
-              onBlur={handleBlur}
-              onKeyDown={handleKeyDown}
-              className="edit-input"
-              type="text"
-          ></input>
-          : <div
-              onClick={handleDivClick}
-              className="edit">
-              {props.todo.title}
-          </div>
-        }
-      </div>
+      {isEdit
+        ? <input
+            ref={inputElement}
+            value={inputValue}
+            onChange={handleChangeInputValue}
+            onBlur={handleBlur}
+            onKeyDown={handleKeyDown}
+            className="edit-input"
+            type="text"
+        ></input>
+        : <div
+            onClick={handleDivClick}
+            className="edit">
+            {props.todo.title}
+        </div>
+      }
       <button
         onClick={handleDeleteItem}>
         {'del'}
