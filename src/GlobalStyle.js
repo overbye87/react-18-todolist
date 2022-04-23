@@ -13,6 +13,16 @@ const GlobalStyle = createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    p {
+      margin: 0;
+    }
+    .auth-form {
+      width: 20em;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 1em;
+    }
     .container {
       display: flex;
       flex-direction: column;
@@ -25,20 +35,33 @@ const GlobalStyle = createGlobalStyle`
       font-size: 0.7em;
       color: darkred;
     }
+    .todo-list {
+      padding: 0;
+    }
     .list-item {
       display: flex;
+      justify-content: space-between;
+      border: solid 1px gray;
+      margin-bottom: 1em;
+      padding: 1em;
       gap: 1em;
+      width: 20em;
       .edit {
-        width: 20em;
-        
+        border: none;
+        padding: 0;
+        margin: 0;
+        flex-grow: 1;
         &-input{
-          border: inherit;
-          padding: inherit;
+          flex-grow: 1;
+          border: none;
+          padding: 0;
+          margin: 0;
           background-color: black;
           color: inherit;
           font-family: inherit;
-          width: 20em;
-
+          &:focus {
+            border: none;
+          }
         }
       }
       .checkbox {
@@ -50,15 +73,15 @@ const GlobalStyle = createGlobalStyle`
       width: 20em;
     }
     .nav{
+      display: flex;
+      gap: 1em;
       margin-bottom: 1em;
       .link {
         border: 1px solid gray;
         border-radius: 4px;
         padding: 0.2em 1em;
         text-decoration: none;
-        &:visited {
-          color: inherit;
-        }
+        color: inherit;
         &:hover {
           background-color: antiquewhite;
           color: #282c34;

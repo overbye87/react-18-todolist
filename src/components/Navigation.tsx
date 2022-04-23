@@ -10,7 +10,18 @@ const Navigation = () => {
       >
         Home
       </NavLink>
-      {' '}
+      <NavLink
+        to="/auth"
+        className={({ isActive }) => isActive ? "link link--active" : "link"}
+      >
+        Auth
+      </NavLink>
+      <NavLink
+        to="/matrix"
+        className={({ isActive }) => isActive ? "link link--active" : "link"}
+      >
+        Matrix
+      </NavLink>
       <NavLink
         to="/todo"
         className={({ isActive }) => isActive ? "link link--active" : "link"}

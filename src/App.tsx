@@ -5,11 +5,13 @@ import {
   Routes,
 } from "react-router-dom";
 import { Provider } from 'react-redux'
-import ToDo from './routes/ToDoPage';
+import ToDo from './routes/ToDo';
 import GlobalStyle from './GlobalStyle';
 import { store } from './store/store';
 import Navigation from './components/Navigation';
-import Home from './routes/HomePage';
+import Home from './routes/Home';
+import Matrix from './routes/Matrix';
+import Auth from './routes/Auth';
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
       <BrowserRouter>
       <Navigation />
         <Routes>        
-          <Route path="/" element={<Home />} />
-          <Route path="todo" element={<ToDo />} />
+          <Route path="/" element={ <Home /> } />
+          <Route path="auth" element={ <Auth /> } />
+          <Route path="matrix" element={ <Matrix /> } />
+          <Route path="todo" element={ <ToDo /> } />
         </Routes>
         <GlobalStyle />
 

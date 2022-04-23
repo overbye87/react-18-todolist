@@ -4,6 +4,10 @@ export interface ITodo {
   isDone: boolean,
 }
 
+export interface IUser {
+  name: string,
+}
+
 export type ITodos = ITodo[]
 
 export enum FilterValue {
