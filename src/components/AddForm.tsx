@@ -22,15 +22,13 @@ const AddForm: React.FC<IProps> = (props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>
-        {'ToDo'}
-        <input
-          type="text"
-          value={inputValue}
-          onChange={ (e) => {setInputValue(e.currentTarget.value)}}
-          />
-        </label>
-        <input type="submit" value="Add ToDo"/>
+      <label>ToDo</label>
+      <input
+        type="text"
+        value={inputValue}
+        onChange={ (e) => {setInputValue(e.currentTarget.value)}}
+      />
+      <input type="submit" value="Add ToDo"/>
     </form>
   )
 }
