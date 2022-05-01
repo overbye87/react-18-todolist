@@ -11,6 +11,12 @@ const Navigation = () => {
         Home
       </NavLink>
       <NavLink
+        to="/pokemons"
+        className={({ isActive }) => isActive ? "link link--active" : "link"}
+      >
+        Pokemons
+      </NavLink>
+      <NavLink
         to="/auth"
         className={({ isActive }) => isActive ? "link link--active" : "link"}
       >

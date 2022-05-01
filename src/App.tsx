@@ -12,6 +12,7 @@ import Navigation from './components/Navigation';
 import Home from './routes/Home';
 import Matrix from './routes/Matrix';
 import Auth from './routes/Auth';
+import Pokemons from './routes/Pokemons';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Navigation />
         <Routes>        
           <Route path="/" element={ <Home /> } />
+          <Route path="pokemons" element={ <Pokemons /> } />
           <Route path="auth" element={ <Auth /> } />
           <Route path="matrix" element={ <Matrix /> } />
           <Route path="todo" element={ <ToDo /> } />
