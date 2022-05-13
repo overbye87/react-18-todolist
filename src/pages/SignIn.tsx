@@ -16,10 +16,12 @@ const initialValues = {
 const SignIn = () => {
   const onSubmit = async (values : IValues) => {
     try {
-      const res = await axios.post('auth', values,)
+      const res = await axios.post('auth', values)
+      alert(res.data.message);
       console.log(res.data.message)
       // console.log(localStorage.getItem('token'))
     } catch (error) {
+      alert((error as AxiosError).response?.data.message);
       console.log((error as AxiosError).response?.data.message)
     }
 
