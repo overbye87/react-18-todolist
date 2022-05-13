@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     p {
       margin: 0;
     }
-    .auth-form {
+    .sign-in-form {
       width: 20em;
       display: flex;
       flex-direction: column;

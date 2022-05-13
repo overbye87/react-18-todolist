@@ -1,39 +1,19 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { pages } from '../pages'
 
 const Navigation = () => {
   return (
     <nav className='nav'>
-      <NavLink
-        to=""
-        className={({ isActive }) => isActive ? "link link--active" : "link"}
-      >
-        Home
-      </NavLink>
-      <NavLink
-        to="/pokemons"
-        className={({ isActive }) => isActive ? "link link--active" : "link"}
-      >
-        Pokemons
-      </NavLink>
-      <NavLink
-        to="/auth"
-        className={({ isActive }) => isActive ? "link link--active" : "link"}
-      >
-        Auth
-      </NavLink>
-      <NavLink
-        to="/matrix"
-        className={({ isActive }) => isActive ? "link link--active" : "link"}
-      >
-        Matrix
-      </NavLink>
-      <NavLink
-        to="/todo"
-        className={({ isActive }) => isActive ? "link link--active" : "link"}
-      >
-        ToDo
-      </NavLink>
+      {pages.map((page) =>
+        <NavLink
+          key={page.name}
+          to={page.path}
+          className={({ isActive }) => isActive ? "link link--active" : "link"}
+        >
+          {page.name}
+        </NavLink>
+      )}
     </nav>
   )
 }

@@ -5,26 +5,21 @@ import {
   Routes,
 } from "react-router-dom";
 import { Provider } from 'react-redux'
-import ToDo from './routes/ToDo';
+import ToDo from './pages/ToDo';
 import GlobalStyle from './GlobalStyle';
 import { store } from './store/store';
 import Navigation from './components/Navigation';
-import Home from './routes/Home';
-import Matrix from './routes/Matrix';
-import Auth from './routes/Auth';
-import Pokemons from './routes/Pokemons';
+import { pages } from './pages';
 
 function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
       <Navigation />
-        <Routes>        
-          <Route path="/" element={ <Home /> } />
-          <Route path="pokemons" element={ <Pokemons /> } />
-          <Route path="auth" element={ <Auth /> } />
-          <Route path="matrix" element={ <Matrix /> } />
-          <Route path="todo" element={ <ToDo /> } />
+        <Routes>
+          {pages.map((page) => 
+            <Route key={page.name} path={page.path} element={page.element} />
+          )}
         </Routes>
         <GlobalStyle />
 

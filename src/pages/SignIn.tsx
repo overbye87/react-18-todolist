@@ -1,22 +1,28 @@
 import React from 'react'
 import { useFormik } from 'formik';
 import axios from '../api/api.js';
+import { AxiosError } from 'axios';
 
 interface IValues {
-  name: string,
+  email: string,
   password: string,
 }
 
 const initialValues = {
-  name: 'username',
-  password: 'password',
+  email: 'admin@admin.ru',
+  password: 'admin',
 }
 
-const Auth = () => {
+const SignIn = () => {
   const onSubmit = async (values : IValues) => {
-    const res = await axios.post('auth', values,)
-    console.log(res.data)
-    console.log(localStorage.getItem('token'))
+    try {
+      const res = await axios.post('auth', values,)
+      console.log(res.data.message)
+      // console.log(localStorage.getItem('token'))
+    } catch (error) {
+      console.log((error as AxiosError).response?.data.message)
+    }
+
   }
 
   const formik = useFormik({
@@ -26,14 +32,14 @@ const Auth = () => {
 
   return (
     <>
-      <h1>Auth</h1>
-      <form onSubmit={formik.handleSubmit} className="auth-form">
+      <h1>SignIn</h1>
+      <form onSubmit={formik.handleSubmit} className="sign-in-form">
         <label>
-          {'Name: '}
+          {'Email: '}
           <input
-            name="name"
+            name="email"
             type="text"
-            value={formik.values.name}
+            value={formik.values.email}
             onChange={formik.handleChange}
           />
         </label>
@@ -52,4 +58,4 @@ const Auth = () => {
   )
 }
 
-export default Auth
+export default SignIn
